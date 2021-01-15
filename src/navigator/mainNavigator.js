@@ -6,7 +6,6 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import Settings193414Navigator from '../features/Settings193414/navigator';
-import EmailAuth193394Navigator from '../features/EmailAuth193394/navigator';
 
 /**
  * new navigators can be imported here
@@ -16,7 +15,6 @@ const AppNavigator = {
 
     //@BlueprintNavigationInsertion
 Settings193414: { screen: Settings193414Navigator },
-EmailAuth193394: { screen: EmailAuth193394Navigator },
 
     /** new navigators can be added here */
     SplashScreen: {
